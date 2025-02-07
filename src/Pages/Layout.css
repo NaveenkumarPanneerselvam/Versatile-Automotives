@@ -1,0 +1,107 @@
+.white-font{
+    color: white;
+    font-size: large;
+    font-weight:normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .nkp {
+    background: transparent; /* Transparent background */
+    border: none; /* Remove default button border */
+    color: white; /* White text color */
+    padding: 10; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    font-size: inherit; /* Inherit font size */
+    cursor: pointer; /*Pointer cursor for better UX*/
+    margin-top: 5px;
+    height: 80px;
+    /* display: inline-block; */
+    }
+    .nkp:hover {
+        border-bottom: 5px solid blue; /* Optional underline on hover */
+        color: red; /* Explicitly set the hover text color to red */
+    }
+    .nkp{
+        text-decoration: none; /* Remove link underline */
+        color:inherit; /*Inherit color from parent*/
+    }
+    /* .nkp a {
+      text-decoration: none;
+      color: inherit;
+  } */
+  
+  .nkp:hover a {
+      color: red;
+  }
+
+
+    #nav-icons{
+        padding-left: 10px;
+      }
+    .navbar {
+        background-color:rgba(255,255,255,0); /* 20% opacity for transparency */
+        transition: background-color 0.3s ease; /* Optional smooth transition */
+        border-bottom: 2px solid white;
+        /* margin-left: 80px;
+        margin-right: 80px; */
+        height: 90px;
+    }
+
+    .navbar-transparent {
+          background-color: transparent;
+          color: white;
+        }
+        
+        .navbar-dark {
+          background-color: #333;
+          color: white;
+        }
+    
+
+
+    .navbar {
+          z-index: 1000;
+          position: absolute;
+    }
+    body, html {
+            margin: 0; /* Removes default margins */
+            padding: 0; /* Removes default padding */
+            overflow-x: hidden; /* Hides horizontal scrolling */
+    }
+  
+  footer {
+      background-color:white;
+      color:black;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: auto; /* Pushes the footer to the bottom */
+    }
+
+   /* Transparent Footer */
+.footer-transparent {
+  background-color: white;
+  color:black;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Dark Footer */
+.footer-dark {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+
+    
+    
+    
+   
+
+
+  
